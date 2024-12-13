@@ -5,12 +5,12 @@
 
 .section__btn{
     background-color: #007bff; /* Couleur de fond bleue */ 
-    color: white; /* Couleur du texte blanche */ 
+    color: var(--blanc); /* Couleur du texte blanche */ 
     padding: 10px 20px; /* Espacement intérieur */ 
     border: none; /* Pas de bordure */ 
     border-radius: 5px; /* Coins arrondis */ 
     font-size: 16px; /* Taille de la police */ 
-    font-family: Arial, sans-serif; /* Police de caractères */ 
+    font-family: var(--font-robotoflex); /* Police de caractères */ 
     cursor: pointer; /* Curseur en forme de main */ 
     text-align: center; /* Alignement du texte au centre */ 
     display: inline-block; /* Affichage en ligne */ 
@@ -19,7 +19,7 @@
 }
 
 .section__card { 
-    background-color: #ffffff; 
+    background-color: var(--blanc); 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
