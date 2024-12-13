@@ -4,5 +4,5 @@
     align-items: center;
     gap: var(--space2x, 16px);
     border: 1px solid var(--brand-tonique);
-    background: var(--brand-white);
+    background: var(--blanc);
 }

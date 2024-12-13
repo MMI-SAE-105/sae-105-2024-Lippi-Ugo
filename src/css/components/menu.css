@@ -6,18 +6,17 @@
   display: flex;
   position: fixed;
   inset: 0;
-  background-color: var(--brand-violet);
-  font-size: var(--text-xl);
+  background-color: var(--bleu-fonce);
+  font-size: var(--menu);
   letter-spacing: var(--letter-spacing);
   transition: all 0.4s ease-in-out;
 }
-/* On se sert de Javascript pour ajouter une classe sur le menu lorsqu'on clique sur le bouton de menu pour le faire apparaître */
+
 .menu[aria-hidden="false"] {
   visibility: visible;
   opacity: 1;
 }
 
-/* Mise en forme des éléments du menu */
 .menu__list {
   margin-top: 25vh;
   margin-left: 15vw;
@@ -28,19 +27,19 @@
 }
 
 .menu__link {
-  color: var(--gray-white);
+  color: var(--blanc);
   text-decoration: none;
 }
 
 .menu-btn {
     position: relative;
-    z-index: 3;
+    z-index: 1;
     width: 30px;
   }
   
-  .menu-btn__bar,
-  .menu-btn__bar::before,
-  .menu-btn__bar::after {
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
     content: "";
     background: white;
     height: 4px;
@@ -49,27 +48,25 @@
     left: 0;
     z-index: 10;
     transition: all 0.4s ease-in-out;
-  }
+}
   
-  .menu-btn__bar::before {
+.menu-btn__bar::before {
     top: -10px;
-  }
+}
   
-  .menu-btn__bar::after {
+.menu-btn__bar::after {
     top: 10px;
-  }
+}
   
-  /* Technique pour transformer les 3 barres du bouton de menu en croix
-  Ne pas oublier d'ajouter une transition plus haut pour l'animation */
-  .menu-btn[aria-expanded="true"] .menu-btn__bar,
-  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
-  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(135deg);
-    background: var(--gray-white);
-  }
+    background: var(--blanc);
+}
   
-  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
-  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(90deg);
     top: 0;
-  }
+}
