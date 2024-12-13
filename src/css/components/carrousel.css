@@ -24,20 +24,20 @@ img {
 
 .container1 {
   display: flex;
-  gap: 16px;
+  gap: 10px;
   overflow-x: scroll;
   margin-left: 0px;
-  margin-right: -60px;
+  margin-right: 0px;
   scroll-snap-type: x mandatory;
   background-color: var(--vert);
 }
 
 .container2 {
     display: flex;
-    gap: 16px;
+    gap: 3,75rem;
     overflow-x: scroll;
     margin-left: 0px;
-    margin-right: -60px;
+    margin-right: 0px;
     scroll-snap-type: x mandatory;
     background-color: var(--jaune-or);
   }
@@ -47,7 +47,7 @@ img {
     gap: 16px;
     overflow-x: scroll;
     margin-left: 0px;
-    margin-right: -60px;
+    margin-right: 0px;
     scroll-snap-type: x mandatory;
     background-color: var(--rouge);
   }

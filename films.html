@@ -1,44 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
     <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
-    <div class="carousel" aria-labelledby="carousel-heading">
-        <h2 id="carousel-heading" class="carousel__heading sr-only">
-          Carousel d'images musicales
-        </h2>
-        <div class="carousel__container" role="region" aria-live="polite">
-          <div class="carousel__item">
-            <div id="item1" class="carousel__item"></div><img src="/assets/img/3zeros.webp" alt="Image musique 1" />
-          </div>
-          <div class="carousel__item">
-            <div id="item2" class="carousel__item"></div><img src="/assets/img/asterixetobelixauxjeuxolympiques.webp" alt="Image musique 2" />
-          </div>
-          <div class="carousel__item">
-            <div id="item3" class="carousel__item"></div><img src="/assets/img/challengers.webp" alt="Image musique 3" />
-          </div>
-          <div class="carousel__item">
-            <div id="item4" class="carousel__item"></div><img src="/assets/img/creed.webp" alt="Image musique 4" />
-          </div>
-          <div class="carousel__item">
-            <div id="item5" class="carousel__item"></div><img src="/assets/img/invictus.webp" alt="Image musique 5" />
-            <p>Invictus 15H - 17H</p>
-          </div>
+    <header class="header container">
+        <div class="header__start">
+            <a href="index.html">
+                <img class="header__logo" src="assets/icons/logo.svg" alt="logo de Vis’Sport" width="70" height="70" />
+            </a>
         </div>
-        <div class="carousel__controls">
-          <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
-            ❯
-          </button>
-          <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
-            ❯
-          </button>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar"></span>
+        </button>
+        
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="festival.html">Le festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Le programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos.html">Tarifs</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero__header container">
+                <h1 class="hero__title">Vis’Sport</h1>
+                <div class="hero__img duotone-hero">
+                    <img src="assets/img/image2.webp" alt="Bobine de film et pop-corn" width="480" height="820" />
+                </div>
+            </div>
         </div>
-      </div>
+        <section>
+            <div class="carousel" aria-labelledby="carousel-heading">
+            <h2><strong>19 Septembre</strong></h2>
+            </div>
+            <div class="carousel__container container1" role="region" aria-live="polite">
+              <div class="carousel__item">
+                <div id="item1" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/creed.webp" alt="Image Creed" /></a>
+                <p class="carousel__item text">Creed <br> 10H00 - 12H13</p>
+            </div>
+              <div class="carousel__item">
+                <div id="item2" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/lagrandeboucle.webp" alt="Image La Grande Boucle" /></a>
+                <p class="carousel__item text">La Grande Boucle <br> 12H30 - 14H08</p>
+            </div>
+            <div class="carousel__item">
+                <div id="item3" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/3zeros.webp" alt="Image 3 Zéros" /></a>
+                <p class="carousel__item text">3 Zéros <br> 14H30 - 16H00</p>
+            </div>
+            <div class="carousel__item">
+                <div id="item4" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/pointbreak.webp" alt="Image Point Break" /></a>
+                <p class="carousel__item text">Point Break <br> 16H15 - 18H16</p>
+            </div>
+              <div class="carousel__item">
+                <div id="item5" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/legrandbain.webp" alt="Image Le Grand Bain" /></a>
+                <p class="carousel__item text">Le Grand Bain <br> 18H30 - 20H28</p>
+              </div>
+            </div>
+            <div class="carousel__controls">
+              <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                ❯
+              </button>
+              <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                ❯
+              </button>
+            </div>
+            <div class="carousel" aria-labelledby="carousel-heading">
+                <h2><strong>20 Septembre</strong></h2>
+                </div>
+            <div class="carousel__container container2" role="region" aria-live="polite">
+                <div class="carousel__item">
+                  <div id="item1" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/challengers.webp" alt="Image Challengers"/></a>
+                  <p class="carousel__item text">Challengers <br> 10H00 - 11H48</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item2" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/rastarocket.webp" alt="Image Rasta Rocket"/></a>
+                  <p class="carousel__item text">Rasta Rocket <br> 12H30 - 16H14</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item3" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/invictus.webp" alt="Image Invictus" /></a>
+                  <p class="carousel__item text">Invictus <br> 14H30 - 16H14</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item4" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/lesseigneurs.webp" alt="Image Les Seigneurs" /></a>
+                  <p class="carousel__item text">Les Seigneurs <br> 16H30 - 18H07</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item5" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/rocky.webp" alt="Image Rocky" /></a>
+                  <p class="carousel__item text">Rocky <br> 18H30 - 20H28</p>
+                </div>
+              </div>
+              <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                  ❯
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                  ❯
+                </button>
+              </div>
+              <div class="carousel" aria-labelledby="carousel-heading">
+                <h2><strong>21 Septembre</strong></h2>
+              </div>
+              <div class="carousel__container container3" role="region" aria-live="polite">
+                <div class="carousel__item">
+                  <div id="item1" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/leschariotsdefeu.webp" alt="Image les chariots de feu" /></a> 
+                  <p class="carousel__item text">Les Chariots de feu <br> 10H00 - 12H05</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item2" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/asterixetobelixauxjeuxolympiques.webp" alt="Image Astérix aux Jeux Olympiques" /></a>
+                  <p class="carousel__item text">Astérix aux Jeux Olympiques <br> 12H30 - 16H14</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item3" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/lespritcoubertin.webp" alt="Image L'esprit Coubertin" /></a>
+                  <p class="carousel__item text">L'esprit Coubertin <br> 15H00 - 16H20</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item4" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/spacejam.webp" alt="Image Space Jam" /></a>
+                  <p class="carousel__item text">Space Jam <br> 16H30 - 18H10</p>
+                </div>
+                <div class="carousel__item">
+                  <div id="item5" class="carousel__item"></div><a href="listefilm.html"><img src="/assets/img/lestratege.webp" alt="Image Le stratège" /></a>
+                  <p class="carousel__item text">Le stratège <br> 18H30 - 20H43</p>
+                </div>
+              </div>
+              <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                  ❯
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                  ❯
+                </button>
+              </div>
+          </div>
+        </section>
+    </main>
 </body>
 </html>
 
