@@ -1,6 +1,7 @@
 .chapo {
     padding-top: var(--space4x);
     padding-bottom: var(--space4x);
+    font-weight: bold;
 }
 
 .chapo__list {
