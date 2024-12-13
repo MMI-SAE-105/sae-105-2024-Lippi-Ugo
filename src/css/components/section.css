@@ -2,3 +2,31 @@
     padding-left: var(--space4x);
     padding-right: var(--space4x);
 }
+
+.section__btn{
+    background-color: #007bff; /* Couleur de fond bleue */ 
+    color: white; /* Couleur du texte blanche */ 
+    padding: 10px 20px; /* Espacement intérieur */ 
+    border: none; /* Pas de bordure */ 
+    border-radius: 5px; /* Coins arrondis */ 
+    font-size: 16px; /* Taille de la police */ 
+    font-family: Arial, sans-serif; /* Police de caractères */ 
+    cursor: pointer; /* Curseur en forme de main */ 
+    text-align: center; /* Alignement du texte au centre */ 
+    display: inline-block; /* Affichage en ligne */ 
+    margin: 0 auto; /* Centrage horizontal */ 
+    display: block; /* Affichage en bloc pour le centrage */ 
+}
+
+.section__card { 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    transition: transform 0.3s ease; 
+    margin: 20px 0; 
+} 
+
+.section__card:hover { 
+    transform: translateY(-10px);
+}

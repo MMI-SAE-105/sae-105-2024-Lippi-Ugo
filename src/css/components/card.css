@@ -1,0 +1,38 @@
+.card__img { 
+    position: relative; 
+    overflow: hidden; 
+} 
+
+.card__img img { 
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.card__titre { 
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #333333; 
+    margin: 16px; 
+} 
+
+.card__excerpt { 
+    font-size: 1rem; 
+    color: #666666; 
+    margin: 0 16px 16px; 
+} 
+
+.card__link a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 16px 16px;
+    border-bottom: 1px solid #007bff;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.card__link:hover a {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}

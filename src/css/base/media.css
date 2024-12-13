@@ -1,46 +1,136 @@
 img {
     max-width: 100%;
     height: auto;
-  }
+}
   
   /* Mise en forme des légendes pour les images */
-  figure {
+figure {
     margin: 0;
-  }
+}
   
-  figcaption {
+figcaption {
     font-size: var(--text-sm);
     color: var(--gray-600);
-  }
+}
   
-  .duotone {
+.duotone-bleu {
     background: var(--bleu-clair);
     position: relative;
-  }
+}
   
-  .duotone::before {
+.duotone-bleu::before {
     content: "";
     position: absolute;
     inset: 0;
     z-index: 1;
     background-color: var(--bleu-fonce);
     mix-blend-mode: lighten;
-  }
+}
+
+.duotone-bleu > img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.duotone-blanc {
+  background: var(--blanc);
+  position: relative;
+}
+
+.duotone-blanc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
+
+.duotone-blanc > img {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.duotone-vert {
+  background: var(--vert);
+  position: relative;
+}
+
+.duotone-vert::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
   
-  .duotone > img {
+.duotone-vert > img {
     filter: grayscale(100%);
     mix-blend-mode: multiply;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
+
+.duotone-jaune {
+  background: var(--jaune-or);
+  position: relative;
+}
+
+.duotone-jaune::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
   
-  .duotone-hero > img {
+.duotone-jaune > img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
+.duotone-rouge {
+  background: var(--rouge);
+  position: relative;
+}
+
+.duotone-rouge::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-color: var(--bleu-fonce);
+  mix-blend-mode: lighten;
+}
   
+.duotone-rouge > img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.duotone-hero > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
