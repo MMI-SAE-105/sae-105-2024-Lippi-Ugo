@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
 @import "vendors/normalize.css";
 
 /* Utils */
@@ -16,3 +18,5 @@
 @import "components/hero.css";
 @import "components/chapo.css";
 @import "components/button.css";
+@import "components/carrousel.css";
+@import "components/section.css";

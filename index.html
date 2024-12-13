@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 <body>
     <header class="header container">
@@ -16,12 +17,21 @@
         <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
             <span class="menu-btn__bar"></span>
         </button>
+        
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
-                <li class="menu__item"><a class="menu__link" href="festival.html">Le festival</a></li>
-                <li class="menu__item"><a class="menu__link" href="programme.html">Le programme</a></li>
-                <li class="menu__item"><a class="menu__link" href="infos.html">Tarifs</a></li>
-                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+                <li class="menu__item">
+                    <a class="menu__link" href="festival.html">Le festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Le programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos.html">Tarifs</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -29,7 +39,7 @@
         <div class="hero">
             <div class="hero__header container">
                 <h1 class="hero__title">Vis’Sport</h1>
-                <div class="hero__img duotone">
+                <div class="hero__img duotone-hero">
                     <img src="assets/img/image.webp" alt="Salle de cinéma" width="480" height="820" />
                 </div>
             </div>

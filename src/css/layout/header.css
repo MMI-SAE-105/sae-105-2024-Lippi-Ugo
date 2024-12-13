@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    padding: var(--space2x) var(--space3x);
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header__start a,
+  .header__end button {
+    position: relative;
+    z-index: 20;
+  }
+  
+  .header__end {
+    display: flex;
+    align-items: center;
+    gap: var(--space2x);
+  }
+  
+  .header__logo {
+    display: block;
+  }

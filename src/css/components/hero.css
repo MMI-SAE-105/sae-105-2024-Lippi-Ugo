@@ -1,0 +1,30 @@
+.hero__header {
+    height: 80vh;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: var(--space5x);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero__img {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+}
+
+.hero__title,
+.hero__sub-title {
+    color: var(--gray-white);
+}
+
+.hero__sub-title {
+    font-family: var(--font-sans-serif);
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+    font-weight: bold;
+}

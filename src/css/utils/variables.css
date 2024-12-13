@@ -1,0 +1,33 @@
+:root {
+  --bleu-fonce : rgba(29, 9, 107, 1);
+  --bleu-clair : rgba(27, 99, 253, 1);
+  --black:       rgba(0, 0, 0, 1);
+  --rouge:       rgba(178, 0, 58, 1);
+  --jaune-or:    rgba(234, 186, 78, 1);
+  --vert:        rgba(76, 175, 80, 1);
+  --blanc:       rgba(255, 255, 255, 1);
+
+
+  /* Tailles de police de caractère */
+  --h1: 3.125rem;
+  --h2: 1.5rem;
+  --h3: 1.125rem;
+  --h4: 0.875rem;
+  --body: 0.813rem;
+  --button: 0.6875rem;
+  --small-text: 0.625rem;
+
+  /* Polices de caractère */
+  --font-play: 'Play', sans-serif;
+  --font-robotoflex: 'Roboto Flex', sans-serif;
+
+  /* Font variantes */
+  --letter-spacing: 0.05em;
+
+  /* Espaces */
+  --space1x: 8px;
+  --space2x: 16px;
+  --space3x: 24px;
+  --space4x: 40px;
+  --space5x: 80px;
+}
