@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : LIPPI
+- PRÉNOM : Ugo
+- GROUPE : B2
+- URL du site : http://sae105.ugo-lippi.fr
+- URL FIGMA : https://www.figma.com/design/lNq1p0LSqKk2VnldvROILP/SAE-103?node-id=11-100&node-type=canvas&t=nZknbgK0kxwM1wtG-0
 
 ## Sujet
 
