@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__start">
+            <a href="index.html">
+                <img class="header__logo" src="assets/icons/logo.svg" alt="logo de Vis’Sport" width="70" height="70" />
+            </a>
+        </div>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar"></span>
+        </button>
+        
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="festival.html">Le festival</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="programme.html">Le programme</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="films.html">Films</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="infos.html">Infos Pratiques</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="hero__header container">
+                <h1 class="hero__title">Contact</h1>
+                <div class="hero__img duotone-hero duotone-rouge">
+                    <img src="assets/img/contact.webp" alt="Image billets" width="480" height="820" />
+                </div>
+            </div>
+        </div>
+        <section class="section">
+            <p class="chapo">Nous serions ravis de vous entendre! Pour toute question, suggestion ou information complémentaire, n’hésitez pas à nous contacter.</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <img class="footer__logo" src="/assets/icons/logo.svg" alt="Logo du festival Vis'Sport" width="70" height="70" />
+        <nav class="footer__menu">
+            <h3 class="footer__title">Menu</h3>
+            <ul class="list-unstyled">
+                <li><a href="#">Mentions légales</a></li>
+            </ul>
+        </nav>
+        <div class="footer__contact">
+            <h4 class="footer__title">Contact</h4>
+            <address class="footer__address">
+                <a href="tel:0612345678">06 12 34 56 78</a><br />
+                <a href="mailto:contact@vissportfestival.com">contact@vissportfestival.com</a>
+            </address>
+        </div>
+        <div class="footer__social">
+            <h3 class="footer__title">Nous suivre</h3>
+            <ul class="footer__list list-unstyled">
+                <li>
+                    <a href="https://facebook.com" aria-label="Visitez notre page facebook">
+                        <img src="assets/icons/facebook.svg" aria-hidden="true" alt="" width="29.32" height="29.32" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" aria-label="Visitez notre page instagram">
+                        <img src="assets/icons/instagram.svg" aria-hidden="true" alt="" width="29.32" height="29.32" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" aria-label="Visitez notre page twitter">
+                        <img src="assets/icons/twitter.svg" aria-hidden="true" alt="" width="29.32" height="29.32" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
